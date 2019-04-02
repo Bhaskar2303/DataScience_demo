@@ -2,6 +2,9 @@ from __future__ import print_function
 import sys
 from operator import add
 from pyspark import SparkContext
+'''
+this is word count example
+'''
 
 sc = SparkContext()
 lines = sc.textFile(sys.argv[0])
